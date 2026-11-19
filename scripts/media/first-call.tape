@@ -29,7 +29,7 @@ Show
 Type "# the GitHub CLI you already have · no nika on the PATH yet"
 Enter
 Sleep 600ms
-Type "gh extension install supernovae-st/gh-nika"
+Type "gh extension install nika-open/gh-nika"
 Enter
 Wait@60s
 Sleep 1200ms
