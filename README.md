@@ -291,7 +291,7 @@ one bash file under `set -euo pipefail`.
 > [!IMPORTANT]
 > Report a vulnerability to **security@supernovae.studio**, never in a public
 > issue. The organization's
-> [security policy](https://github.com/supernovae-st/.github/blob/main/SECURITY.md)
+> [security policy](https://github.com/nika-open/.github/blob/main/SECURITY.md)
 > applies to this repository and treats supply-chain reports, install scripts
 > included, as highest severity.
 
@@ -390,5 +390,5 @@ your workflows.
 
 Contributions are welcome: open an issue or a pull request. CI runs the gates
 above on every pull request, under the
-[code of conduct](https://github.com/supernovae-st/.github/blob/main/CODE_OF_CONDUCT.md).
+[code of conduct](https://github.com/nika-open/.github/blob/main/CODE_OF_CONDUCT.md).
 Security reports go to **security@supernovae.studio**.
