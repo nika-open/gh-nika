@@ -5,6 +5,11 @@ on:
   pull_request:
   workflow_dispatch:
 
+# The gate reads this checkout and the engine's public releases; nothing it
+# runs writes to GitHub.
+permissions:
+  contents: read
+
 jobs:
   gate:
     runs-on: ubuntu-latest

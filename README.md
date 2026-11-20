@@ -15,21 +15,21 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/supernovae-st/gh-nika/releases/latest"><img src="https://img.shields.io/github/v/release/supernovae-st/gh-nika?label=gh%20extension" alt="Extension release"></a>
-  <a href="https://github.com/supernovae-st/gh-nika/actions/workflows/ci.yml"><img src="https://github.com/supernovae-st/gh-nika/actions/workflows/ci.yml/badge.svg?branch=main" alt="CI status"></a>
-  <a href="https://github.com/supernovae-st/nika/releases/latest"><img src="https://img.shields.io/github/v/release/supernovae-st/nika?label=engine" alt="Engine release"></a>
+  <a href="https://github.com/nika-open/gh-nika/releases/latest"><img src="https://img.shields.io/github/v/release/nika-open/gh-nika?label=gh%20extension" alt="Extension release"></a>
+  <a href="https://github.com/nika-open/gh-nika/actions/workflows/ci.yml"><img src="https://github.com/nika-open/gh-nika/actions/workflows/ci.yml/badge.svg?branch=main" alt="CI status"></a>
+  <a href="https://github.com/nika-open/nika/releases/latest"><img src="https://img.shields.io/github/v/release/nika-open/nika?label=engine" alt="Engine release"></a>
   <a href="https://docs.nika.sh"><img src="https://img.shields.io/badge/docs-docs.nika.sh-8b8cf8.svg" alt="Documentation"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue.svg" alt="Apache-2.0"></a>
   <br>
-  <a href="https://scorecard.dev/viewer/?uri=github.com/supernovae-st/gh-nika"><img src="https://api.scorecard.dev/projects/github.com/supernovae-st/gh-nika/badge" alt="OpenSSF Scorecard"></a>
-  <a href="https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/supernovae-st/gh-nika"><img src="https://archive.softwareheritage.org/badge/origin/https://github.com/supernovae-st/gh-nika/" alt="Archived by Software Heritage"></a>
+  <a href="https://scorecard.dev/viewer/?uri=github.com/nika-open/gh-nika"><img src="https://api.scorecard.dev/projects/github.com/nika-open/gh-nika/badge" alt="OpenSSF Scorecard"></a>
+  <a href="https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/nika-open/gh-nika"><img src="https://archive.softwareheritage.org/badge/origin/https://github.com/nika-open/gh-nika/" alt="Archived by Software Heritage"></a>
 </p>
 
 <!-- engine clips: served from the engine repository's main branch (media/), so they follow its latest render, not a release tag -->
 <p align="center"><b>Watch four commands take a first workflow from nothing to a verified run, offline and with no key.</b></p>
 <p align="center">
-  <a href="https://raw.githubusercontent.com/supernovae-st/nika/main/media/gifs/full-loop.optimized.gif">
-    <img src="https://raw.githubusercontent.com/supernovae-st/nika/main/media/gifs/full-loop.optimized.gif"
+  <a href="https://raw.githubusercontent.com/nika-open/nika/main/media/gifs/full-loop.optimized.gif">
+    <img src="https://raw.githubusercontent.com/nika-open/nika/main/media/gifs/full-loop.optimized.gif"
          alt="Four commands, offline and with no key: nika compile writes hello.nika, nika check audits it, nika run rehearses it on mock/echo, and nika trace verify confirms the run's hash chain" width="960">
   </a>
 </p>
@@ -73,7 +73,7 @@ Three steps, no API key.
 **1 · Install the extension.**
 
 ```sh
-gh extension install supernovae-st/gh-nika
+gh extension install nika-open/gh-nika
 ```
 
 **2 · Write a first workflow.** `compile hello` writes a one-task workflow
@@ -125,7 +125,7 @@ the engine, then a first workflow written and audited through gh.**
 
 <table>
   <tr>
-    <td width="33%" valign="top"><b>One install</b><br><code>gh extension install supernovae-st/gh-nika</code> is the whole setup. The engine comes with the first call.</td>
+    <td width="33%" valign="top"><b>One install</b><br><code>gh extension install nika-open/gh-nika</code> is the whole setup. The engine comes with the first call.</td>
     <td width="33%" valign="top"><b>The whole CLI</b><br>Every <code>nika</code> command and flag works after <code>gh nika</code>. Your arguments reach the engine untouched.</td>
     <td width="33%" valign="top"><b>Checked before it runs</b><br><code>gh nika check</code> shows what a workflow can touch and what it can cost, before any model is called.</td>
   </tr>
@@ -143,8 +143,8 @@ them after `gh`.
 model.**
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/supernovae-st/nika/main/media/gifs/nika-hero.optimized.gif">
-    <img src="https://raw.githubusercontent.com/supernovae-st/nika/main/media/gifs/nika-hero.optimized.gif"
+  <a href="https://raw.githubusercontent.com/nika-open/nika/main/media/gifs/nika-hero.optimized.gif">
+    <img src="https://raw.githubusercontent.com/nika-open/nika/main/media/gifs/nika-hero.optimized.gif"
          alt="A meeting-actions workflow audited, then run on a local model, with the owners, tasks and due dates it wrote" width="860">
   </a>
 </p>
@@ -154,8 +154,8 @@ model.**
 fixed file.**
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/supernovae-st/nika/main/media/gifs/static-check-fix.optimized.gif">
-    <img src="https://raw.githubusercontent.com/supernovae-st/nika/main/media/gifs/static-check-fix.optimized.gif"
+  <a href="https://raw.githubusercontent.com/nika-open/nika/main/media/gifs/static-check-fix.optimized.gif">
+    <img src="https://raw.githubusercontent.com/nika-open/nika/main/media/gifs/static-check-fix.optimized.gif"
          alt="nika check finds two defects in a pull-request review workflow, the fix is applied, and the re-check comes back clean; nothing runs and no token is spent" width="860">
   </a>
 </p>
@@ -165,8 +165,8 @@ fixed file.**
 the engine.**
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/supernovae-st/nika/main/media/gifs/workflow-gallery.optimized.gif">
-    <img src="https://raw.githubusercontent.com/supernovae-st/nika/main/media/gifs/workflow-gallery.optimized.gif"
+  <a href="https://raw.githubusercontent.com/nika-open/nika/main/media/gifs/workflow-gallery.optimized.gif">
+    <img src="https://raw.githubusercontent.com/nika-open/nika/main/media/gifs/workflow-gallery.optimized.gif"
          alt="The nika try gallery: ready-made jobs built into the engine, from bookmark-triage to transcript-shownotes" width="860">
   </a>
 </p>
@@ -205,8 +205,8 @@ flowchart LR
 
 1. **Your `nika` wins.** When `nika` is on your PATH, the extension runs
    `exec nika "$@"`: arguments intact, nothing downloaded. An engine you
-   installed another way (Homebrew `supernovae-st/tap/nika`, npm
-   `@supernovae-st/nika`, the install script) answers at the version you
+   installed another way (Homebrew `nika-open/tap/nika`, npm
+   `@nika-open/nika`, the install script) answers at the version you
    chose.
 2. **Otherwise, the cached engine** in
    `${XDG_DATA_HOME:-~/.local/share}/gh-nika/nika`, or `$GH_NIKA_DIR/nika`
@@ -245,7 +245,7 @@ extension needs:
 
 ```yaml
 - run: |
-    gh extension install supernovae-st/gh-nika
+    gh extension install nika-open/gh-nika
     gh nika check flows/report.nika
   env:
     GH_TOKEN: ${{ github.token }}
@@ -256,7 +256,7 @@ every push and pull request ([how it is tested](#how-this-repository-is-tested))
 
 > [!TIP]
 > Want the verdict as a comment on each pull request, with the workflow's
-> graph? [nika-action](https://github.com/supernovae-st/nika-action) is built
+> graph? [nika-action](https://github.com/nika-open/nika-action) is built
 > for exactly that.
 
 ## Security
@@ -265,7 +265,7 @@ What the script does and does not do, read from its source: [`gh-nika`](gh-nika)
 one bash file under `set -euo pipefail`.
 
 - **It talks only to GitHub, through your `gh`.** Its only network calls are
-  `gh release view` and `gh release download` against `supernovae-st/nika`:
+  `gh release view` and `gh release download` against `nika-open/nika`:
   one lookup of the latest tag, one download of the archive, one of
   `SHA256SUMS`. No telemetry, no other host, no elevated privileges.
 - **Nothing runs before its checksum passes.** The archive must be listed in
@@ -291,7 +291,7 @@ one bash file under `set -euo pipefail`.
 > [!IMPORTANT]
 > Report a vulnerability to **security@supernovae.studio**, never in a public
 > issue. The organization's
-> [security policy](https://github.com/supernovae-st/.github/blob/main/SECURITY.md)
+> [security policy](https://github.com/nika-open/.github/blob/main/SECURITY.md)
 > applies to this repository and treats supply-chain reports, install scripts
 > included, as highest severity.
 
@@ -354,11 +354,11 @@ handed the arguments over unchanged.
   teaches any finding.
 - [docs.nika.sh](https://docs.nika.sh): the language, the engine and
   [every way to install and connect it](https://docs.nika.sh/integrations/everywhere).
-- [supernovae-st/nika](https://github.com/supernovae-st/nika): the engine,
+- [nika-open/nika](https://github.com/nika-open/nika): the engine,
   its releases and their `SHA256SUMS`.
-- [nika-spec](https://github.com/supernovae-st/nika-spec): the language
+- [nika-spec](https://github.com/nika-open/nika-spec): the language
   specification.
-- [nika-action](https://github.com/supernovae-st/nika-action): check verdicts
+- [nika-action](https://github.com/nika-open/nika-action): check verdicts
   as pull-request comments.
 
 <!-- city:map -->
@@ -366,29 +366,29 @@ handed the arguments over unchanged.
 
 | | Repository | What it gives you |
 |---|---|---|
-| 🦋 | [nika](https://github.com/supernovae-st/nika) | The engine and CLI: write, check, run and verify AI workflows |
-| 📖 | [nika-docs](https://github.com/supernovae-st/nika-docs) | The documentation, live at [docs.nika.sh](https://docs.nika.sh) |
-| 📜 | [nika-spec](https://github.com/supernovae-st/nika-spec) | The language specification and the suite that proves an engine follows it |
-| 🧩 | [nika-vscode](https://github.com/supernovae-st/nika-vscode) | The editor extension, frozen at 0.120 and not qualified with 0.123: use `nika lsp` and the JSON Schema |
-| 🟦 | [nika-client](https://github.com/supernovae-st/nika-client) | Run and verify workflows from TypeScript |
-| ✅ | [nika-action](https://github.com/supernovae-st/nika-action) | A GitHub Action that posts a `nika check` verdict on your pull requests |
-| 🚀 | [nika-actions-starter](https://github.com/supernovae-st/nika-actions-starter) | A ready template: workflows, editor setup and CI from the first push |
-| 📦 | [nika-registry](https://github.com/supernovae-st/nika-registry) | Shareable workflows, pinned and re-verified |
-| 🤖 | [nika-plugins](https://github.com/supernovae-st/nika-plugins) | Teaches your coding agent (Claude Code, Codex, Cursor…) to write Nika |
-| 🍺 | [homebrew-tap](https://github.com/supernovae-st/homebrew-tap) | `brew install supernovae-st/tap/nika` |
-| 🐙 | **[gh-nika](https://github.com/supernovae-st/gh-nika)** | **The Nika CLI as a GitHub CLI extension** |
-| 🏛️ | [nika-estate](https://github.com/supernovae-st/nika-estate) | Where each file in Nika's core repositories comes from, declared and re-checkable |
+| 🦋 | [nika](https://github.com/nika-open/nika) | The engine and CLI: write, check, run and verify AI workflows |
+| 📖 | [nika-docs](https://github.com/nika-open/nika-docs) | The documentation, live at [docs.nika.sh](https://docs.nika.sh) |
+| 📜 | [nika-spec](https://github.com/nika-open/nika-spec) | The language specification and the suite that proves an engine follows it |
+| 🧩 | [nika-vscode](https://github.com/nika-open/nika-vscode) | The editor extension, frozen at 0.120 and not qualified with 0.123: use `nika lsp` and the JSON Schema |
+| 🟦 | [nika-client](https://github.com/nika-open/nika-client) | Run and verify workflows from TypeScript |
+| ✅ | [nika-action](https://github.com/nika-open/nika-action) | A GitHub Action that posts a `nika check` verdict on your pull requests |
+| 🚀 | [nika-actions-starter](https://github.com/nika-open/nika-actions-starter) | A ready template: workflows, editor setup and CI from the first push |
+| 📦 | [nika-registry](https://github.com/nika-open/nika-registry) | Shareable workflows, pinned and re-verified |
+| 🤖 | [nika-plugins](https://github.com/nika-open/nika-plugins) | Teaches your coding agent (Claude Code, Codex, Cursor…) to write Nika |
+| 🍺 | [homebrew-tap](https://github.com/nika-open/homebrew-tap) | `brew install nika-open/tap/nika` |
+| 🐙 | **[gh-nika](https://github.com/nika-open/gh-nika)** | **The Nika CLI as a GitHub CLI extension** |
+| 🏛️ | [nika-estate](https://github.com/nika-open/nika-estate) | Where each file in Nika's core repositories comes from, declared and re-checkable |
 <!-- /city:map -->
 
 ## License
 
 [Apache-2.0](LICENSE) for this extension. The engine it downloads is
-[AGPL-3.0-or-later](https://github.com/supernovae-st/nika/blob/main/LICENSE),
-and the language spec is [Apache-2.0](https://github.com/supernovae-st/nika-spec).
+[AGPL-3.0-or-later](https://github.com/nika-open/nika/blob/main/LICENSE),
+and the language spec is [Apache-2.0](https://github.com/nika-open/nika-spec).
 Installing this extension does not impose the engine's copyleft license on
 your workflows.
 
 Contributions are welcome: open an issue or a pull request. CI runs the gates
 above on every pull request, under the
-[code of conduct](https://github.com/supernovae-st/.github/blob/main/CODE_OF_CONDUCT.md).
+[code of conduct](https://github.com/nika-open/.github/blob/main/CODE_OF_CONDUCT.md).
 Security reports go to **security@supernovae.studio**.
